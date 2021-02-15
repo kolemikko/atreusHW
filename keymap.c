@@ -21,11 +21,7 @@
 #define ADJUST MO(_ADJUST)
 
 #define CBSPC  LCTL_T(KC_BSPC)
-
 #define KC_SFZ LSFT_T(KC_Z)
-
-#define KC_PSCRN  C(KC_PSCR)
-#define KC_CAPTU  S(KC_PSCR)
 
 //----------------------------------------------------------------------------------------------------
 
@@ -69,7 +65,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_SUPER] = LAYOUT( \
   //,---------------------------------------------.                  ,---------------------------------------------------.
-  SGUI(KC_C),       __,       __, KC_PSCRN, KC_INS,                   KC_PGUP, LGUI(KC_7),  LGUI(KC_8),LGUI(KC_9),LGUI(KC_P),\
+  SGUI(KC_C),       __,       __,       __, KC_INS,                   KC_PGUP, LGUI(KC_7),  LGUI(KC_8),LGUI(KC_9),LGUI(KC_P),\
   //|-------+---------+---------+---------+-------|                  |-------+-----------+-----------+-----------+-------|
       __,SGUI(KC_R),LGUI(KC_ENT),SGUI(KC_ENT), KC_DEL,                KC_PGDN, LGUI(KC_4),  LGUI(KC_5),LGUI(KC_6),     __,\
   //|-------+---------+---------+---------+-------|                  |-------+-----------+-----------+-----------+-------|
