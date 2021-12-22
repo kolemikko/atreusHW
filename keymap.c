@@ -20,7 +20,7 @@
 #define WASD   TG(_WASD)
 #define ADJUST MO(_ADJUST)
 
-#define CBSPC  LGUI_T(KC_BSPC)
+#define CBSPC  LCTL_T(KC_BSPC)
 #define KC_SFZ LSFT_T(KC_Z)
 
 //----------------------------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|-------+-------+-------+-------+-------|                 |-------+-------+-------+-------+-------|
       KC_SFZ,   KC_X,   KC_C,   KC_V,   KC_B,                     KC_K,   KC_M,KC_COMM, KC_DOT,KC_SLSH, \
   //|-------+-------+-------+-------+-------+-------|  |------+-------+-------+-------+-------+-------|
-      KC_ESC,KC_LCTL,KC_LALT,  LOWER,  CBSPC,  SUPER,   KC_ENT,  RAISE,KC_LSFT,     XX,KC_VOLD,KC_VOLU \
+      KC_ESC,KC_LGUI,KC_LALT,  LOWER,  CBSPC,  SUPER,   KC_ENT,  RAISE,KC_LSFT,     XX,KC_VOLD,KC_VOLU \
   //|-------+-------+-------+-------+-------+-------|  |------+-------+-------+-------+-------+-------|
   ),
 
